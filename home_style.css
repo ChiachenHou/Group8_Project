@@ -1,0 +1,70 @@
+body{
+    background-color:#ebd8a5;
+}
+p,h1{
+    font-family:微軟正黑體;
+    letter-spacing: 1px;/*字距*/
+}
+#head{
+    position:fixed;
+    top:0%;
+    left:23.9%;
+}
+#fb{
+    position:absolute;
+    top:12.2%;
+    left:24%;
+}
+#line{
+    position:absolute;
+    top:12.2%;
+    left:26.5%;
+}
+#twitter{
+    position:absolute;
+    top:12.2%;
+    left:29%;
+}
+#wechat{
+    position:absolute;
+    top:12.2%;
+    left:31.5%;
+}
+#image1{
+    position:absolute;
+    left:24%;
+    top:21%;
+}
+#image2{
+    position:absolute;
+    top:50%;
+    left:76%;
+    transform:translate(-50%, -50%);
+}
+.name{
+    position:absolute;
+    top:74.5%;
+}
+.right{
+    position:absolute;
+    top:78%;
+}
+#right1{
+    left:40%;
+}
+#name1{
+    
+    left:35%
+}
+#right2{
+    left:60%;
+}
+#name2{
+    left:55%
+}
+#email{
+    position:absolute;
+    bottom:5%;
+    right:23.8%;
+    font-size:12px;
+}
