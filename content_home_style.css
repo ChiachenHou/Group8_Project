@@ -20,7 +20,9 @@ hr{
     margin:20px;
 }
 #share{
-    margin-left:83%;
+    margin-left:80%;
     margin-bottom:5%;
 }
-
+#share img{
+    padding-left:10px;
+}
