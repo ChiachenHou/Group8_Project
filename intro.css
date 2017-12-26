@@ -39,6 +39,7 @@ p,h1{
     top:21%;
     opacity:0.4;
     filter:blur(3px);
+    border-color:#ffb31a;
 }
 #content{
     position:absolute;
