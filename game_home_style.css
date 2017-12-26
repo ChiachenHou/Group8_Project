@@ -1,6 +1,25 @@
 body{
     background-color:#ebd8a5;
+    margin-left:18%;
+    margin-right:18%;
 }
 h1{
     font-family:微軟正黑體;
+    font-weight:bold;
+    padding-left:20px;
+    padding-top:20px;
+}
+hr{
+    padding-bottom:-50px;   
+    border-color:#9595b7;
+}
+#topImg{
+    margin:20px;
+}
+#ethnicity img{
+    margin:20px;
+}
+#share{
+    margin-left:83%;
+    margin-bottom:5%;
 }
