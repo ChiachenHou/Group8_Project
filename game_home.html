@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>文化內容</title>
+    <title>遊戲互動</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="game_home_style.css">
 </head>
 <body>
+    <img id="topImg" src="top.png" alt="首頁照片" title="首頁照片_原住民" width="920" height="100">
     <h1 id="headname">遊戲首頁</h1>
-    
+    <hr align="center" width="100%" alt="分隔線">
+    <div id="share"> 
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+        <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
+    </a>
+    <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
+        <img id="line" src="line.png" alt="line分享" width="30" height="30">
+    </a>
+    <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
+    <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
+    </div>
+    <div id="ethnicity">
+	
+	</div>
+	
+        留言區：<br><textarea id="content" type="text"></textarea></br>
+        <input value="提交" type="button" id="btn" />
+		
+    <script>
+    window.onload=function(){
+        var display_area = document.getElementById("display_area");
+        var btn = document.getElementById("btn");
+        btn.onclick = function(){
+            var content_val = document.getElementById("content").value;
+            display_area.append(content_val);
+        };
+    }
+    </script>
+	
+	
+	
+	<u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
+	
 </body>
 </html>
