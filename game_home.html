@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="game_home_style.css">
 </head>
 <body>
-    <img id="topImg" src="top.png" alt="首頁照片" title="首頁照片_原住民" width="920" height="100">
+    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至首頁" title="超連結回到首頁" width="920" height="100"></a>
     <h1 id="headname">遊戲首頁</h1>
     <hr align="center" width="100%" alt="分隔線">
     <div id="share"> 
@@ -20,36 +20,27 @@
     <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
     <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
     </div>
-    <div id="ethnicity"></div>
+    <div id="ethnicity">
 	
-	<div class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>聯絡我們</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: D05xxxxxx@fcu.edu.tw</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: D05xxxxxx@fcu.edu.tw</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: D05xxxxxx@fcu.edu.tw</p>
-    </div>
-    <div class="col-sm-7">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+	</div>
+	
+        留言區：<br><textarea id="content" type="text"></textarea></br>
+        <input value="提交" type="button" id="btn" />
+		
+    <script>
+    window.onload=function(){
+        var display_area = document.getElementById("display_area");
+        var btn = document.getElementById("btn");
+        btn.onclick = function(){
+            var content_val = document.getElementById("content").value;
+            display_area.append(content_val);
+        };
+    }
+    </script>
+	
+	
+	
+	<u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
 	
 </body>
 </html>
-
