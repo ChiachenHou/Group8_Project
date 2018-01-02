@@ -5,41 +5,82 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="content_home_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
 </head>
 <body>
-    <img id="topImg" src="top.png" alt="首頁照片" title="首頁照片_原住民" width="920" height="100">
+    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至首頁" title="超連結回到首頁" width="920" height="100"></a>
     <h1 id="headname">內容</h1>
     <hr align="center" width="100%" alt="分隔線">
     <div id="share"> 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
         <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
-      </a>
-      <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
+        </a>
+        <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
         <img id="line" src="line.png" alt="line分享" width="30" height="30">
-      </a>
-      <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
-      <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
+        </a>
+        <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
+        <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
     </div>
     <div id="ethnicity">
     </div>
-    
+    <style>
+        body{
+            background-color:#ebd8a5;
+            margin-left:18%;
+            margin-right:18%;
+        }
+        h1{
+            font-family:微軟正黑體;
+            font-weight:bold;
+            padding-left:20px;
+            padding-top:20px;
+        }
+        hr{
+            padding-bottom:-50px;   
+            border-color:#9595b7;
+        }
+        #topImg{
+            margin:20px;
+        }
+        #ethnicity img{
+            margin:20px;
+        }
+        #share{
+            margin-left:80%;
+            margin-bottom:5%;
+        }
+        #share img{
+            padding-left:10px;
+        }
+    </style>
     <script>
-      var ethnicities=document.getElementById("ethnicity");
-      var name=["阿美族","泰雅族", "排灣族", "布農族", "卑南族", "魯凱族", "鄒族", "賽夏族", 
-                "雅美(達悟)族", "邵族", "噶瑪蘭族", "太魯閣族", "撒奇萊雅族", "賽德克族",
-                "拉阿魯哇族", "卡那卡那富族"];
-      var imagePath="tmp.jpg"; 
-      images(ethnicities,imagePath,name);
-      function images(item,data,name){
-	    var src="";
-	    for(var i=0;i<16;i++){
-	        src=src+'<img id="'+i+'" src="'+data+'" alt="'+name[i]+'" width="200" height="200">';
+        var ethnicities=document.getElementById("ethnicity");
+        var name=["阿美族","泰雅族", "排灣族", "布農族", "卑南族", "魯凱族", "鄒族", "賽夏族", 
+                  "雅美(達悟)族", "邵族", "噶瑪蘭族", "太魯閣族", "撒奇萊雅族", "賽德克族",
+                  "拉阿魯哇族", "卡那卡那富族"];
+        var paths=["file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/content_1.html",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   "",
+                   ""];
+        var file=".jpg"; 
+        images(ethnicities,file,name,paths);
+        function images(item,data,name){
+	        var src="";
+	        for(var i=0;i<16;i++){
+	            src=src+'<a href="'+paths[i]+'">'+'<img id="'+i+'" src="'+(i+1)+file+'" alt="'+name[i]+'" width="200" height="200"></a>';
+	        }
+		    item.innerHTML=src;
 	    }
-		item.innerHTML=src;
-        
-	  }
-      
     </script>
 </body>
 </html>
