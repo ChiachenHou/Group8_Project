@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>太魯閣族</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#content").text("這裡放習俗");
+            });
+            $("#button2").click(function(){
+                $("#content").text("這裡放祭典&神話");
+            });
+            $("#button3").click(function(){
+                $("#content").text("這裡放居住型態");
+            });
+            $("#button4").click(function(){
+                $("#content").text("這裡放社會組織");
+            });
+        });
+    </script>
+</head>
+<body>
+    <style>
+        body{
+            background-color:#ebd8a5;
+            margin-left:18%;
+            margin-right:18%;
+            font-family:微軟正黑體;
+        }
+        h1{
+            font-weight:bold;
+            padding-left:20px;
+            padding-top:20px;
+        }
+        hr{
+            padding-bottom:-50px;
+            border-color:#9595b7;
+        }
+        #topImg{
+            margin:20px;
+        }
+        #share{
+            margin-left:80%;
+            margin-bottom:5%;
+        }
+        #share img{
+            padding-left:10px;
+        }
+    </style>
+    
+    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100"></a>
+    <h1  id="headname">太魯閣族</h1>
+    <hr align="center" width="100%" alt="分隔線">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="container">
+          <div class="btn-group-vertical">
+            <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
+            <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
+            <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
+            <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div id="share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+          <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
+          </a>
+          <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
+          <img id="line" src="line.png" alt="line分享" width="30" height="30">
+          </a>
+          <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
+          <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
+        </div>
+      </div>
+      <div id="content" class="col-sm-8">
+        <p>這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容</p>
+      </div>
+    </div>
+</body>
+</html>
