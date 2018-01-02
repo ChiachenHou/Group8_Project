@@ -5,6 +5,22 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#content").text("這裡放習俗");
+            });
+            $("#button2").click(function(){
+                $("#content").text("這裡放祭典&神話");
+            });
+            $("#button3").click(function(){
+                $("#content").text("這裡放居住型態");
+            });
+            $("#button4").click(function(){
+                $("#content").text("這裡放社會組織");
+            });
+        });
+    </script>
 </head>
 <body>
     <style>
@@ -35,16 +51,17 @@
         }
     </style>
     
-    <img id="topImg" src="top.png" alt="首頁照片" title="首頁照片_原住民" width="920" height="100">
+    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100"></a>
     <h1  id="headname">阿美族</h1>
     <hr align="center" width="100%" alt="分隔線">
     <div class="row">
       <div class="col-sm-2">
         <div class="container">
           <div class="btn-group-vertical">
-            <button type="button" class="btn btn-default btn-lg">習俗</button>
-            <button type="button" class="btn btn-default btn-lg">祭典&神話</button>
-            <button type="button" class="btn btn-default btn-lg">建築</button>
+            <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
+            <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
+            <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
+            <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
           </div>
         </div>
       </div>
@@ -60,7 +77,7 @@
           <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
         </div>
       </div>
-      <div class="col-sm-8">
+      <div id="content" class="col-sm-8">
         <p>這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容</p>
       </div>
     </div>
