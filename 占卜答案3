@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>結果3</title>
+<head> 
+  <meta charset="utf-8"></meta>
+  <style type="text/css">
+  .title{&nbsp&nbsp&nbsp&nbsp width:700px;padding:30px;font-weigt:bolder;font-size:40px;text-align:center}
+  .keyword1{color:#A20055}
+  .thicker{font-weight:700}
+  .site{text-align:center}
+  </style>
+  </head>
+  <div style="background-color:#FFFFBB">
+  <body>
+  <div class="title"><div class="keyword1">
+	<span style="font-family:Microsoft JhengHei;"><p class="thicker"><span style="font-size:45px;">
+	結果3</span></p></span></div></div>
+	
+	<div class="keyword1"><div class="site"><span style="font-family:Microsoft JhengHei;"><span style="font-size:25px;">
+	&nbsp&nbsp遇到問題時，你很會推給別人，時間久了，身邊的人都覺得</span></span></div></div>
+	<div class="keyword1"><div class="site"><span style="font-family:Microsoft JhengHei;"><span style="font-size:25px;">
+	你很有心機，因此真正發生大問題時，沒人會站在你這邊 .</span></span></div></div>
+	
+	<p><div class="site"><img src="圖三.png" width="200" height="180" /></div></p>
+	
+	<h1><div class="button"><div class="site"<b><a href="file:///C:/Users/Ciang/Desktop/%E5%8D%A0%E5%8D%9C1.html" </a>重新測驗</b></div></h1>
+  
+  </div>
+  </body>
+  </html>
