@@ -6,8 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#content").hide();
-            $("#content").fadeIn(1000);
+            $("#intro").hide();
+            $("#intro").fadeIn(1000);
         });
     </script>
 </head>
@@ -19,7 +19,7 @@
         #head{
             margin-left:25%;
         }
-        u,p,h1{
+        h1{
             font-family:微軟正黑體;
             letter-spacing:1px;
             font-weight:bold;
@@ -38,7 +38,7 @@
             margin-left:auto;
             margin-right:auto;
         }
-        #content{
+        #intro{
             font-size:20px;
             line-height:50px;
             position:absolute;
@@ -69,21 +69,29 @@
     </div>
     <div class="Intro">
         <img id="image1" border="5px" src="home.jpg" width="800" height="400">
-        <p id="content">　　民族當中，除了人和歷史是獨一無二的之外，更無可取代的即是「文化」。它是藝術：實際又抽象；是生活：有形亦無形，直接而不強硬的影響著原住民。本網站清楚直覺地設計，使用起來極為簡單。回到原點提供了16族各層面文化之介紹，搭配簡單的小遊戲，能幫助使用者更熟悉他們的文化。</p>
+        <p id="intro">　　民族當中，除了人和歷史是獨一無二的之外，更無可取代的即是「文化」。它是藝術：實際又抽象；是生活：有形亦無形，直接而不強硬的影響著原住民。本網站清楚直覺地設計，使用起來極為簡單。回到原點提供了16族各層面文化之介紹，搭配簡單的小遊戲，能幫助使用者更熟悉他們的文化。</p>
         <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html">
         <img id="backToHome" src="left.png" alt="前往回到原點首頁" title="主頁" width="60" height="60">
         </a>
     </div>
-    
-    
-    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/content_home.html">
-    <img class="right" id="right1" src="right.png" alt="前往內容首頁" width="60" height="60"/>
-    <p class = "name" id="name1">內容</p>
-    </a>
-    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/game_home.html">
-    <img class="right" id="right2" src="right.png" alt="前往遊戲頁面" width="60" height="60"/>
-    <p class = "name" id="name2">遊戲</p>
-    </a>
-    <u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-4 col-xs-12">
+            <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/content_home.html">
+            <img class="right" id="content1" src="content.png" alt="前往內容首頁" width="110" height="60"/>
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/game_home.html">
+            <img class="right" id="game" src="game.png" alt="前往遊戲頁面" width="110" height="60"/>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-8"></div>
+        <div class="col-sm-4">
+            <u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
+        </div>
+    </div>
 </body>
 </html>
