@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>回到原點</title>
+    <title>回到原點-簡介</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#intro").hide();
+            $("#intro").fadeIn(1000);
+        });
+    </script>
 </head>
 <body>
     <style>
         body{
             background-color:#ebd8a5;
             font-family:微軟正黑體;
+            letter-spacing:1px;
         }
         #head{
             margin-left:25%;
-            letter-spacing:1px;
             font-weight:bold;
         }
         #share{
             margin-bottom:2%;
         }
-        .Photo{
+        .Intro{
             position:relative;
-        }
-        #goToIntro{
-            position:absolute;
-            top:40%;
-            left:80%;
         }
         #image1{
             display:block;
             margin-left:auto;
             margin-right:auto;
         }
+        #intro{
+            font-size:20px;
+            line-height:50px;
+            font-weight:bold;
+            position:absolute;
+            top:20%;
+            left:25%;
+            right:25%;
+        }
+        #backToHome{
+            position:absolute;
+            top:40%;
+            left:78%;
+        }
         #email{
             font-size:12px;
         }
     </style>
-    <h1 id="head">回到原點</h1>
+    <h1 id="head">回到原點<h1>
     <div class="container">
         <div class="col-sm-9"></div>
         <div class="col-sm-3 col-xs-12" id="share"> 
@@ -48,10 +63,10 @@
             </a>
         </div>
     </div>
-    <div class="Photo">
-        <img id="image1" border="5px" src="home.jpg" width="800" height="400">
+    <div class="Intro">
+        <img id="image1" src="home.jpg" width="800" height="400">
         <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/intro.html">
-        <img id="goToIntro" src="right.png" alt="前往簡介" title="前往簡介" width="60" height="60">
+        <img id="backToHome" src="right.png" alt="前往回到原點首頁" title="前往回到原點首頁" width="60" height="60">
         </a>
     </div>
     <div class="row">
