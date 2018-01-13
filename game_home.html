@@ -42,23 +42,26 @@
             </a>
         </div>
     </div>
-        <div class="container">
-            <div class="col-sm-8"></div>
-            <div class="col-4">
-                留言區：<br><textarea id="content" type="text"></textarea></br>
-                <input value="提交" type="button" id="btn"/>
-            </div>
+    <div class="container">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10 col-xs-12">
+            <h3>留言區:</h3>
         </div>
-    <script>
-        window.onload=function(){
-            var display_area = document.getElementById("display_area");
-            var btn = document.getElementById("btn");
-            btn.onclick = function(){
-                var content_val = document.getElementById("content").value;
-                display_area.append(content_val);
-            };
-        }
-    </script>
-	<u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
+    </div>
+    <div class="container">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10 col-xs-12">
+        <textarea cols="30" rows="5" alt="留言區">想留甚麼就留甚麼......</textarea>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5 col-xs-12">
+            <button alt="送出" title="送出">送出</button>
+        </div>
+        <div class="col-sm-5 col-xs-12">
+            <u id="email">E-mail : DXXXXXXX@fcu.edu.tw</u>
+        </div>
+	</div>
 </body>
 </html>
