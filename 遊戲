@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>占卜</title>
+<head> 
+  <meta charset="utf-8"></meta>
+  
+  <style type="text/css">
+	.thicker{font-weight:700}
+	.thicker1{font-weight:700}
+	.title{&nbsp&nbsp&nbsp&nbsp width:700px;padding:30px;font-weigt:bolder;font-size:40px;text-align:center}
+	.content{&nbsp&nbsp&nbsp&nbsp width:100px;padding:5px;text-align:center}     /* ;border:3px dashed #FF88C2;margin-top:1px;margin-bottom=10px 框框*/
+	.keyword{color:#FF88C2}
+	.keyword1{color:#0044BB}
+	.site{text-align:center;
+	top: -50px;
+   position: relative;
+	}
+	.site2{
+	top: -10px;
+   position: relative;
+	
+	text-align:center;
+	}
+	.site3{
+	top: -95px;
+   position: relative;
+	
+	float: left;
+  position: relative;
+  left:49%;
+	}
+	.site1{
+	top: -25px;
+   position: relative;
+   
+	float: left;
+  position: relative;
+  left:30%;
+	}
+	
+    .button{
+   width:90px;
+   padding: 10px 20px;
+   border: 1px solid #C7C7C7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#00B7FF));
+   background: -webkit-linear-gradient(top, #FFFFFF, #00B7FF);
+   background: -moz-linear-gradient(top, #FFFFFF, #00B7FF);
+   background: -ms-linear-gradient(top, #FFFFFF, #00B7FF);
+   background: -o-linear-gradient(top, #FFFFFF, #00B7FF);
+   background-color: #00B7FF;
+   box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #2853E0;
+   -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #2853E0;
+   -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #2853E0;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   text-shadow: #1169ED 1px 1px 0px;
+   color: #1953E6;
+   font-size: 20px;
+   font-family: '微軟正黑體';
+   text-decoration: none;
+   font-weight: bold;
+   -webkit-transition: 0.2s;
+   -moz-transition: 0.2s;
+   -o-transition: 0.2s;
+   cursor: pointer;
+   
+   
+   }
+   	.button{
+   text-align:center;
+}
+   
+	.button:hover {
+
+   background: none;
+   background-color: #00B7FF;
+   box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   border: 1px solid #ffffff;
+   color: #470000;
+   }
+   .button:active {
+   
+   top: 1px;
+   position: relative;
+   }
+  </style> 
+</head>
+
+<body>
+
+<div style="background-color:#FFFFBB">
+
+	<div class="title"><div class="keyword1">
+	<span style="font-family:Microsoft JhengHei;"><p class="thicker">
+	你遇上問題會怎樣嗎?
+	</p></span></div></div>
+	<div class="site"><div class="content"><span class="keyword"><p class="thicker1">
+	<span style="font-family:DFKai-sb;">
+	§ 簡易的測驗將會讓你更了解自己 §
+	</span></p></span></div></div>
+	
+	<div class="site"><p><img src="2.png" width="600" height="300" border="3" dashed #FF88C2;margin-top="1";margin-bottom="10" /></p></div>
+	
+	
+
+<div class="site1"><h1><div class="button"><a href="file:///C:/Users/%E4%BD%BF%E7%94%A8%E8%80%85/Desktop/new%202.html"> 選擇 1</a></div></h1></div>
+<div class="site2"><center><h2><div class="button"><a href="file:///C:/Users/%E4%BD%BF%E7%94%A8%E8%80%85/Desktop/new%203.html"> 選擇 2</a></div></h2></center></div>
+<div class="site3"><h3><div class="button"><a href="file:///C:/Users/%E4%BD%BF%E7%94%A8%E8%80%85/Desktop/new%204.html"> 選擇 3</a></div></h3></div>
+
+</div>
+</body>
+
+</html>
