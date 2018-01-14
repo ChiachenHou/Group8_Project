@@ -4,6 +4,46 @@
     <title>遊戲互動</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".Q").hide();
+            $("#result").hide();
+            $("#r1").hide();
+            $("#r2").hide();
+            $("#r3").hide();
+            $("#game1").click(function(){
+                $("#game1").slideUp(1000);
+                $(".Q").slideDown(1000);
+                $("#a1").click(function(){
+                    $(".Q").slideUp(1000);
+                    $("#result").show();
+                    $("#result").text("你答錯了~達悟族是：");
+                    $("#r1").show();
+                });
+                $("#a2").click(function(){
+                    $(".Q").slideUp(1000);
+                    $("#result").show();
+                    $("#result").text("你答對了~好棒棒!");
+                    $("#r2").show();
+                });
+                $("#a3").click(function(){
+                    $(".Q").slideUp(1000);
+                    $("#result").show();
+                    $("#result").text("你答錯了~賽夏族是：");
+                    $("#r3").show();
+                });
+            });
+            $("#headname").click(function(){
+                $("#game1").slideDown(1000);
+                $(".Q").hide();
+                $("#result").hide();
+                $("#r1").hide();
+                $("#r2").hide();
+                $("#r3").hide();
+            });
+        });
+    </script>
 </head>
 <body>
     <style>
@@ -22,10 +62,30 @@
             margin-left:auto;
             margin-right:auto;
         }
-        #games img{
+        #game1{
             display:block;
             margin-left:auto;
             margin-right:auto;
+        }
+        #question{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .answers button{
+            margin-top:1%;
+            background-color:#66ccff;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .A img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        }
         }
     </style>
     <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html">
@@ -49,18 +109,23 @@
             </a>
         </div>
     </div>
-    <div class="container">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 col-xs-12">
-            <a href="">
-            <img id="game1" src="game1.png" alt="前往心理測驗遊戲" title="前往心理測驗遊戲" width="353" height="205">
-            </a>
-            <a href="">
-            <img id="game2" src="game2.png" alt="前往遊戲二(請改我)" title="前往遊戲二(要被改掉)" width="353" height="205">
-            </a>
-        </div>
-        <div class="col-sm-2"></div>
+    <img id="game1" src="click.png" alt="點我開始遊戲" title="點我開始遊戲" width="300" height="150">
+    <div class="Q">
+        <h2><center>◇猜猜這是哪一族呢?◇</center></h2>
+        <img id="question" src="g1.jpg" alt="題目:分布在花蓮、台東地區的原住民為哪一族" title="題目" width="170" height="200">
+        <div class="answers"><center>
+            <button id="a1" alt="達悟族">達悟族</button>
+            <button id="a2" alt="阿美族">阿美族</button>
+            <button id="a3" alt="賽夏族">賽夏族</button>
+        </center></div>
     </div>
+    <div class="A">
+        <h3 id="result" align="center"></h3>
+        <img id="r1" src="g9.jpg" alt="達悟族" width="170" height="200">
+        <img id="r2" src="g1.jpg" alt="阿美族" width="170" height="200">
+        <img id="r3" src="g8.jpg" alt="賽夏族" width="170" height="200">
+    </div>
+    <hr align="center" width="60%" alt="分隔線">
     <div class="container">
         <div class="col-sm-2"></div>
         <div class="col-sm-10 col-xs-12">
