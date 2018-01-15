@@ -6,80 +6,177 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
+         $(document).ready(function(){
             $("#button1").click(function(){
-                $("#content").text("這裡放習俗");
+                $("#headname").text("習俗");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>Toda亞族的生命禮俗</strong></h3>");
+				$("#content").append("&emsp;&emsp;人的一生中，其生命有幾個階段，從結婚、懷孕、生育、命名、穿耳洞、紋面，成年至死亡，每一個人生的關鍵，都有具特殊的生命禮俗。");
+				$("#content").append("<h3><strong>生育</strong></h3>");
+				$("#content").append("&emsp;&emsp;當婦女接近臨盆時，由其家人的婦女(母親、姐妹……）等協助接生，而接生婆往往是最有經驗的婆婆或母親。當小孩生出母體時，其臍帶用山刀剪斷，，胎盤埋在穀倉下。產婦第二天或第三天即開始工作，無坐月子之習慣，嬰孩都是餵母乳。生育時部落有許多Waya，例如：");
+				$("#content").append("<br>&emsp;&emsp;•  不允許非親戚至產婦家。");
+				$("#content").append("<br>&emsp;&emsp;•  小孩臍帶未斷前，男人不能上山狩。");
+				$("#content").append("<br>&emsp;&emsp;•  男方要殺豬並分肉予岳家親屬，表示感謝之意。");
+				$("#content").append("<br>&emsp;&emsp;人無節育的觀念，然生產多，但孩子能長大成人則不到一半。大都因病死亡。歸究原因是沒有打預防針之故。");
+				$("#content").append("<h3><strong>命名</strong></h3>");
+				$("#content").append("&emsp;&emsp;新生兒出生數天後，開始命名。命名大都是由家裡長者。小孩的名字依傳統命名法(Waya)，即取祖先之名，本名後面要附加父親之名，而父死則附加母親之名。例如：Temu(本名)basaw(父名)。");
+				$("#content").append("<br>&emsp;&emsp;名字取法的原則，長男用祖父之名，次男用曾祖父之名，參男用高祖父之名字。因為部落名字並非很多，因此會有許多同名同姓的人，為使親族將來不會混淆，一般家裡的長者會口述傳遞其子孫。但沒有文字的記載，一般宗親能口傳追溯到上四代就已經不容易。");
+				$("#content").append("<h3><strong>結婚(msturung)</strong></h3>");
+				$("#content").append("&emsp;&emsp;族人的婚姻，都是一夫一妻制，並且禁止近親(三代）通婚。青年男女的婚姻，都是父母之命。雖然部落青年男女設有聚會所可以談情說愛，如果，父母不答應，也不能違背父母。");
+				$("#content").append("<br>&emsp;&emsp;一般結婚是部落最熱鬧的時間，也是男人、女人暢飲通宵歡樂跳舞之時，以前的聘禮簡單樸實，只有飯鍋或農事器具。男方要送豬給女方，殺豬分肉時依親屬多寡，由長者輪流分肉，並用竹條串肉，各人帶回。男方家族較富裕者，還會做年糕分送給親戚家，有類似現今的喜餅。而新娘的親威，都會贈送布當贈禮給新娘，布贈送的數量愈多，新娘在婆家愈有身價。");
+				$("#content").append("<h3><strong>獵首</strong></h3>");
+				$("#content").append("&emsp;&emsp;•  獵首是賽德克族男人尊嚴的象徵。");
+				$("#content").append("<br>&emsp;&emsp;•  若是沒有獵首的成年男生，不得紋面，會被辱為女人。");
+				$("#content").append("<br>&emsp;&emsp;•  必須要經過這一段成年試煉，才能受到部落族人的肯定，能夠保護自己部落不被侵犯。");
+				$("#content").append("<br>&emsp;&emsp;•  獵首也有為部落祈福，驅散傳染病，以及治病的作用。");
+				$("#content").append("<br>&emsp;&emsp;•  在獵首之前會進行鳥占，若是吉兆，要勇往直前，不要羞辱了祖靈；若是凶兆，則停止出草行動。");
+				$("#content").append("<h3><strong>織布與紋面</strong></h3>");
+				$("#content").append("&emsp;&emsp;賽德克族以紋面及精湛的織布技術聞名。紋面的意義除了美觀以外，就女子而言，代表善於織布，一位賽德克族女子，在十三、四歲的時候，就跟著媽媽學習織布的技巧，也開始為自己準備出嫁時的衣裳，當少女的織藝精進，也就是准許在臉上刺青的時候了，這時也是尋覓如意郎君的好時機，一位不會織布與沒有紋面的女孩子在部落裡是沒有人追的。");
+				$("#content").append("<br>&emsp;&emsp;就男子而言，是獵過首級，能夠勇敢獨當一面，保家衛社稷的標誌，也是成年的象徵。但紋面的風俗在日本人佔領台灣期間被禁止，目前仍保有紋面的賽德克族都是八、九十歲的族人。除了上述的意義以外，美觀、避邪也是紋面的另一個目的，賽德克族人在山上工作，吃完晚飯後，要將炭灰塗於上額、下顎，以避免邪靈之侵，因此據推斷，兩者之間有其淵源。賽德克族人相信，當族人去世，回到祖靈的居所恃，祖先們以臉上的刺青認定自己的子孫，因此，黥面也是死後認祖歸宗的標誌。");
+				
             });
             $("#button2").click(function(){
-                $("#content").text("這裡放祭典&神話");
-            });
+                $("#headname").text("祭典&神話");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>宗教</strong></h3>");
+				$("#content").append("&emsp;&emsp;稱神為Utux。族人將神區分為善神及惡神。善神經常會保護族人避過災難，會答應要求族人的願望；惡神則相反，常常拒絕族人的願望，對其許願也必定會發怒而給予災害。");
+				$("#content").append("<br>&emsp;&emsp;所以族人在做夢時神不容許其願望時，就知道遇到了惡神而會非常的害怕。容許其願望時，就知道遇到了善神而產生崇敬之心，族人事實上無法從外型上對善神及惡神有所區別。族人說：在夜裡睡覺時呼吸屢屢感覺閉塞，就是惡神前來戲弄的結果，然而會抓住其咽喉的神，很可能是其雙親之靈，也可能是其祖先之靈，更可能是外人之靈。所以，對任何一個人來說，並非父母之靈就是善神。事實上，所謂善、惡神是主觀的，唯有相信自己遇上不被禁止行為的就是善神，行為被禁止就是惡神。得到吉夢而出草，途中卻遇到危難，他們就判斷是善神放棄了此人而飛到別處去了，惡神前來代替才會如此。");
+				$("#content").append("<br>&emsp;&emsp;賽德克族人只有敬畏靈魂、祭祀靈魂的習俗，還不至於祭祀天地、日月、星辰、風雨、雲雷、山川等等。也就是說賽德克族人宗教信仰的對象，僅有唯一的「鬼魂」。");
+				$("#content").append("<h3><strong>祭典</strong></h3>");
+				$("#content").append("<h4><strong>&emsp;播種祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;賽德克族主要的傳統祭儀有播種祭、收穫祭、祈雨祭、狩獵祭、捕魚祭及獵首祭等，任何祭儀的意象無不祈望族命得以綿延、族運得以順遂發展，其訴求的對象即崇信的Utux(Utux Tmninun)，各祭祀團體各自獨立各司其職，祭祀團體的主祭司皆頗受族人的敬重，其社會地位不亞於部落意見領袖（俗稱頭目）。播種祭與收穫祭可說是賽德克族的重點祭儀，兩祭儀的主祭司都採世襲制，傳男不傳女、承繼者的順位依家中男子排序而定。");
+				$("#content").append("<h4><strong>&emsp;收穫祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;農獵時期，賽德克族以「燒墾游耕」的傳統耕作法種植作物，小米一年僅能播種一期。小米播種祭約於每年的2〜3月間舉行，舉行播種祭儀之前，由部落意見領袖協同長老數人齊赴主祭司的家中咨商有關播種事宜，擇定時日後同一區域所有的部落同時舉行，除病重及不良於行者之外全體族人參與，但期間若有同一區域內的任一部落有人亡故，則取消該次的祭祀活動，另擇日舉行。");
+				$("#content").append("<h4><strong>&emsp;祈雨祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;遭逢久旱不雨的災情時，賽德克族人才會舉行祈雨祭，因此祈雨祭並非固定或經常性的祭儀，而是隨機舉行的祭祀活動。賽德克族人會選擇部落附近的溪流舉行祈雨祭，至於要在哪一區域的溪流段舉行則由祈雨的主祭司選定。");
+				$("#content").append("<br>&emsp;&emsp;一般而言，每個部落的祈雨主祭司都會選定2〜3處的祈雨溪流段，究竟要在哪一溪流段舉行，端視Utux的啟示（有人稱之為『夢占』）而定。");
+				$("#content").append("<h4><strong>&emsp;狩獵祭</strong></h4>");	
+				$("#content").append("&emsp;&emsp;賽德克族的狩獵祭約於每年的10〜11月間舉行，就在舉行收穫祭之後的一個月內相繼舉辦，狩獵祭常以單一部落或聯合數個鄰近部落的方式進行。狩獵祭當天，除老弱婦孺及重病在身者外部落全體族人都參與該項狩獵盛事，其獵獲物由部落的每一位族人共同分享，以每戶的人口數做為均分的依據，包括因故無法來到現場狩獵的部落族人，若遇有身孕的婦女，則可分得兩份，這是賽德克族人敬重、呵護每一個生命體的實質作為。");
+				$("#content").append("<br>&emsp;&emsp;女性不得出現在狩獵的行列中，就如男性不得從事織布的工作一樣。對賽德克族人而言，舉行狩獵祭具有以下兩種意涵：");
+				$("#content").append("<br>&emsp;&emsp;（一）狩獵祭是族人們為了準備迎接新的一年所舉辦的部落活動。先祖們對「一年」的概念是，根據小米、黍米的收獲與播種來作為「一個年」的過去與到來。");
+				$("#content").append("<br>&emsp;&emsp;（二）狩獵祭是為了慶祝豐收及感謝Utux的庇祐所舉辦的部落聯誼活動，若遇作物欠收時更要祈求Utux的庇護。");
+				$("#content").append("<h4><strong>&emsp;捕魚祭</strong></h4>");	
+				$("#content").append("&emsp;&emsp;賽德克族在完成小米及黍米的收割與儲藏的工作後，於一個月內會接連舉行各為期一日的狩獵祭及捕魚祭，但該兩項祭儀活動都沒有任何祭祀儀式，舉行的日期及方式由部落長老決議託付部落意見領袖執行，傳統上先舉行狩獵祭後舉辦捕魚祭，兩者約相隔一週。");
+				$("#content").append("<br>&emsp;&emsp;在狩獵祭及捕魚祭的活動中，至少提供了以下的育、樂效果：");
+				$("#content").append("<br>&emsp;&emsp;•  有孩童們的參與，基於童心及好奇心，必能帶給族人無限的歡樂。");
+				$("#content").append("<br>&emsp;&emsp;•  有青少年及青年男女們的加入，將增進男女青年佳偶天成的機會。");
+				$("#content").append("<br>&emsp;&emsp;•  長者們可現場傳授狩獵的技巧與經驗。");
+				$("#content").append("<br>&emsp;&emsp;•  讓族中晚輩們親身體驗、學習本族分享與狩獵的文化。");
+				$("#content").append("<h4><strong>&emsp;獵首祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;賽德克族在舉行「收穫祭」後的獵首行動，於此即以收穫祭的獵首行動為例，略述賽德克族的獵首祭。");
+				$("#content").append("<br>&emsp;&emsp;在部落時代，賽德克族人除了對入侵的敵方獵首外，於舉行播種祭與收穫祭時會執行獵首行動係屬傳統的祭祀範疇，播種祭儀前的獵首是祈求Utux(Utux Tmninun)賜予豐收，收穫祭儀後的獵首則是感謝Utux(Utux Tmninun)的庇佑與賜福。因應收穫祭所派出的獵首團是代表部落或一個區域的威勢，大都由部落意見領袖帶頭出獵，出獵之前早已派出先遣隊探得該次獵首的地點與對象。獵首團所敬候的是Utux(Utux Tmninun)的應允。在那個年代裡人口愈多的部落就愈壯大，部落愈壯大族群就愈強盛，可知部落時期賽德克族人對人丁旺盛的渴望。");
+				$("#content").append("<br>&emsp;&emsp;因此，「獵首祭」實則為賽德克族人因部落增加了一個人力及為部落迎接一位新夥伴而慶祝的儀式。由於賽德克族人獵首的首要目的是「增加部落的人力」，因而對行獵的對象有其一定的規範：不獵孩童；不獵婦女，尤其懷有身孕者；不獵老者；不獵殘障者。");
+			});
             $("#button3").click(function(){
-                $("#content").text("這裡放居住型態");
+                $("#headname").text("居住型態");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>分布</strong></h3>");
+				$("#content").append("&emsp;&emsp;發源地為德鹿灣(Truwan)，為現今仁愛鄉春陽溫泉一帶，主要以台灣中部及東部地域為其活動範圍，約介於北方的泰雅族及南方的布農族之間。其後在不斷的遷徙當中形成兩大聚落，以中央山脈為界線，分出東、西賽德克族。東賽德克族散居東部花蓮山區，即今日花蓮縣秀林鄉、萬榮鄉、卓溪鄉。西賽德克族集中分布於現今南投縣仁愛鄉，以濁水溪上游一帶為腹地並建立七個村十二部落。");
+				$("#content").append("<br>&emsp;&emsp;部落為分散式的聚落類型，一個部落內族人生活的家屋分布在若干處，有的是單戶獨居，也有的是幾戶相鄰，成為一個部落內其中一個的小聚落，而且部落內的住戶呈現不規則分佈，沒有經過規劃性的整合。");
+				$("#content").append("<br>&emsp;&emsp;居住地點考量的要點:");
+				$("#content").append("<br>&emsp;&emsp;•  安全性及防禦性：賽德克族人會選擇在山腰且鄰近河流的平坦台地上設聚落，在視野上可以清楚看到周圍的情景，增加其安全性，也便於防禦。");
+				$("#content").append("<br>&emsp;&emsp;•  農耕：賽德克族主要的農作物為小米、地瓜、玉米、芋頭、小黍等，各部落皆為自給自足的生活型態，所以要選擇在易於農耕的緩坡地或平台。");
+				$("#content").append("<br>&emsp;&emsp;•  最佳的狩獵據點：賽德克族將狩獵視為部落中最重要的生產活動，所以選擇狩獵的據點非常重要，部落族人會將聚落設置於靠近獵區的位置。");
+				
+				
             });
             $("#button4").click(function(){
-                $("#content").text("這裡放社會組織");
-            });
-        });
+                $("#headname").text("社會組織");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>簡介</strong></h3>");
+				$("#content").append("&emsp;&emsp;居住在高山峻嶺之中的賽德克人，民風剽悍，在日據時期曾多次起兵反抗，造成日軍不少的損失，以德克塔雅群為主的霧社事件為最大，當時震驚全台。");
+				$("#content").append("<br>&emsp;&emsp;大體而言，社會組織分成下列幾個團體：");
+				$("#content").append("<br>&emsp;&emsp;•  部落組織");
+				$("#content").append("<br>&emsp;&emsp;•  祭祀團體");
+				$("#content").append("<br>&emsp;&emsp;•  共負罪責團體");
+				$("#content").append("<br>&emsp;&emsp;•  狩獵團體");
+				$("#content").append("<br>&emsp;&emsp;這四個團體的成員有互相重疊的特質，在不同部落，祭祀團體可能大於狩獵團體，其他的部落可能狩獵團體大於任何一個團體。各地的差異性頗大，無法一概而論。");
+				$("#content").append("<br>&emsp;&emsp;賽德克族的社會中，依循著祖訓gaya的規範制度，以不同的功能而組成的團體，共同維繫著這族群或是這一群的部落，形成一個共同體。依照功能的不同分成部落組織、祭祀、共負罪責、狩獵等等的集團，只不過之間團體在族群內差異大，無法仔細的述說。");
+				$("#content").append("<br>&emsp;&emsp;部落組織主要以血緣關係，也就是宗親的關係形成一個基本的單位，在此社會組織內，內部以共享、共同祭祀、共同守獵等等的功能，也必須要保護這一團體不被其他部落侵擾，必要時在相同地域環境內的團體會形成一個攻守聯盟，共同抵禦更外圍的敵人，此時就是共推一個大頭目，代表這區所有的部落，是權力的代表，也是發號施令的人。");
+				$("#content").append("<br>&emsp;&emsp;狩獵集團以及祭祀集團同樣也是賽德克族重要的功能團體，狩獵團體主要是狩獵不是個人的行動，是集體的行動，可以達到分工、共享、共食的功能，在戰事發生的時候，也數個狩團連盟共同採取行動。祭祀團體主要是以共同祭祀對象為組合，以奉行組訓規範而立，執行祭祀活動，同時具有部落調解糾紛的角色，是部落中具有仲裁力的團體。");
+				$("#content").append("<h3><strong>Toda亞族的傳統社會組織 </strong></h3>");
+				$("#content").append("&emsp;&emsp;傳統的多達(Toda)社，其社會結構仍延用祖先傳下之Waya制度採取共同組織之社會形態。在賽德克人的社會裡，舉凡族人的狩獵生活、農事耕作、家庭　倫理、宗教觀…等，皆以Waya為行為思想的中心，Waya代表著部落所有族人必須遵循的法律規範，因此賽德克人形成自己的傳統文化習俗。以下僅介紹部份的Waya(即為gaya，Toda人稱為waya)：");
+				$("#content").append("<h4><strong>&emsp;狩獵的Waya：</strong></h4>");
+				$("#content").append("&emsp;&emsp;•  借接別人的ngu ngu尾巴：為了要捕獵豐碩的獵物，出獵者要向擁有ngu ngu的族人(不限親戚)借，並帶在身上，族人相信utux會保佑獵人安全及獵捕豐碩的獵物。");
+				$("#content").append("<br>&emsp;&emsp;•  出獵者要上山的前幾日，家人要和樂相處，不能有所爭吵，否則會觸犯神明狩獵中獵不到動物。");
+				$("#content").append("<br>&emsp;&emsp;•  有孕婦的男人，不能隨狩獵團同行，族人相信，會破壞Waya，而招致神明憤怒讓狩獵團遭遇颱風而發生意外。");
+				$("#content").append("<h4><strong>&emsp;農事耕作的Waya：</strong></h4>");
+				$("#content").append("&emsp;&emsp;•  每到春季播種時，族人必須先等祭師做完Smulatuc儀式後，待其先試撒之粟穀長出新芽後，並經許可，族人方可播撒粟穀種子。");
+				$("#content").append("<br>&emsp;&emsp;•  族人新開墾土地，需要請族人幫忙，酬勞的給付是換工或是殺豬分肉。");
+				$("#content").append("<h4><strong>&emsp;養殖牲畜的Waya：</strong></h4>");
+				$("#content").append("&emsp;&emsp;•  豬是族人普遍養的牲畜，白天任其部落亂跑，但晚上必須趕至豬舍。如果母豬在外面生產，這是不吉利的事，必須母豬、小豬全部殺死，才不會遭致災害。");
+				$("#content").append("<h4><strong>&emsp;離世的Waya ：</strong></h4>");
+				$("#content").append("<&emsp;&emsp;•  家人生病死亡，親人必須在亡者斷氣時手握，否則居住的家要離棄且遠離部落一個月，方可回到部落。");
+				$("#content").append("<br>&emsp;&emsp;•  亡者埋葬時，所有其衣物東西全部要陪葬，而挖墓洞的人，必須用水洗淨身子，方可回到部落。");
+				
+				});
+			});
     </script>
 </head>
 <body>
     <style>
         body{
             background-color:#ebd8a5;
-            margin-left:18%;
-            margin-right:18%;
             font-family:微軟正黑體;
         }
         h1{
             font-weight:bold;
-            padding-left:20px;
-            padding-top:20px;
-        }
-        hr{
-            padding-bottom:-50px;
-            border-color:#9595b7;
         }
         #topImg{
-            margin:20px;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
         }
-        #share{
-            margin-left:80%;
-            margin-bottom:5%;
+        hr{
+            border-color:#9595b7;
         }
-        #share img{
-            padding-left:10px;
+        #back{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:2%;
+            padding:15px 60px;
+            text-align:center;
+            font-size:16px;
         }
     </style>
-    
-    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100"></a>
-    <h1  id="headname">賽德克族</h1>
-    <hr align="center" width="100%" alt="分隔線">
-    <div class="row">
-      <div class="col-sm-2">
+        <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html">
+        <img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100">
+        </a>
         <div class="container">
-          <div class="btn-group-vertical">
-            <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
-            <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
-            <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
-            <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
-          </div>
+           <div class="col-sm-1 col-xs-1"></div>
+                <div class="col-sm-11 col-xs-11">
+                    <h1 id="headname">賽德克族</h1>
+                </div>
         </div>
-      </div>
-      <div class="col-sm-10">
-        <div id="share">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
-          <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
-          </a>
-          <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
-          <img id="line" src="line.png" alt="line分享" width="30" height="30">
-          </a>
-          <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
-          <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
+        <hr align="center" width="60%" alt="分隔線">
+        <div class="container">
+            <div class="col-sm-1 col-xs-1"></div>
+            <div class="col-sm-2 col-xs-2">
+                <div class="btn-group-vertical">
+                    <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
+                    <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
+                    <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
+                    <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
+                </div>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <p id="content"></p>   
+            </div>
+            <div class="col-sm-1 col-xs-1" id="share">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+                <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
+                </a>
+                <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
+                <img id="line" src="line.png" alt="line分享" width="30" height="30">
+                </a>
+            </div>
         </div>
-      </div>
-      <div id="content" class="col-sm-8">
-        <p>這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容</p>
-      </div>
-    </div>
+        <hr align="center" width="60%" alt="分隔線">
+        <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/content_home.html">
+            <div class="col-sm-12 col-xs-12">
+            <button id="back" alt="回到內容選單" title="回到內容選單">回到內容首頁</button>
+            </div>
+        </a>
 </body>
 </html>
