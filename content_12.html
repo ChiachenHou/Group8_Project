@@ -1,85 +1,182 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>太魯閣族</title>
+	<title>太魯閣族</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
+         $(document).ready(function(){
             $("#button1").click(function(){
-                $("#content").text("這裡放習俗");
+                $("#headname").text("習俗");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>出生禮</strong></h3>");
+				$("#content").append("&emsp;&emsp;•  婦女必須要在屋內生產，倘若出了屋外實是破壞禁忌(gaya)，必出大風暴。");
+				$("#content").append("<br>&emsp;&emsp;•  婦女開始陣痛時一直到分娩結束，禁止自家男人進入屋內。");
+				$("#content").append("<br>&emsp;&emsp;•  孩子出生時必須要用削過的竹片割斷孩子的臍帶，不用繩子綑綁臍帶而用燒過木灰塗抹臍帶。");
+				$("#content").append("<br>&emsp;&emsp;•  過了數十日之後到河邊以豬獻祭，以防止帶來大風暴。");
+				$("#content").append("<br>&emsp;&emsp;•  產婦一個月不能出屋外。");
+				$("#content").append("<h3><strong>訂婚及婚禮</strong></h3>");
+				$("#content").append("&emsp;&emsp;•  男女必須等到成人後才能交往。");
+				$("#content").append("<br>&emsp;&emsp;•  男女近親不能結婚。");
+				$("#content").append("<br>&emsp;&emsp;•  男女的婚姻必須由父母看準後才行，男女的家長首先至女方家見女孩後開始提親。");
+				$("#content").append("<br>&emsp;&emsp;•  談妥女方要求的聘金及訂婚後，每一個人將手指頭浸到沒人所帶來的水裡，以示不悔約。");
+				$("#content").append("<br>&emsp;&emsp;•  男方必須要到女方家幫忙耕地，一直到結婚後才結束。");
+				$("#content").append("<br>&emsp;&emsp;•  到了結婚時，男女雙方必須預備結婚喜宴來宴請雙方親屬。");
+				$("#content").append("<br>&emsp;&emsp;•  婚宴完後，男方的家長及親屬到女方家迎娶女方過門及搬運嫁妝。");
+				$("#content").append("<h3><strong>喪禮</strong></h3>");
+				$("#content").append("&emsp;&emsp;•  如果家庭有人過世，必須將所有起的火熄滅，同時將爐灶內的火灰丟到屋外。");
+				$("#content").append("<br>&emsp;&emsp;•  將化好妝的屍體猶如胎兒在母親腹中的姿勢用織布包裹。");
+				$("#content").append("<br>&emsp;&emsp;•  男人要脫上衣在床下挖洞將屍骸埋葬。");
+				$("#content").append("<br>&emsp;&emsp;•  要守喪五日，期間不吃加鹽的食物、不吃肉、不吃魚，同時不耕作不打獵。");
+				$("#content").append("<br>&emsp;&emsp;•  人將死之際，家人必須守候到斷氣為止，倘若沒有人照顧而自己斷氣者稱為「暴斃而死」，若此，喪家必須放棄所住的家另外擇地建新居。");
+				$("#content").append("<h3><strong>紋面禮</strong></h3>");
+				$("#content").append("&emsp;&emsp;•  劃臉氏族人的象徵。");
+				$("#content").append("<br>&emsp;&emsp;•  男人劃臉必須要先能獵得敵人的首級。");
+				$("#content").append("<br>&emsp;&emsp;•  婦女必須要會織布才能紋面。");
+				$("#content").append("<br>&emsp;&emsp;•  有紋面的男女才可以結婚。");
+				$("#content").append("<br>&emsp;&emsp;•  紋面的人才漂亮。");
+				$("#content").append("<br>&emsp;&emsp;•  男人在其額頭及下巴紋面，女人在其額頭及臉頰紋面。");
+				$("#content").append("<h3><strong>紋面文化</strong></h3>");
+				$("#content").append("<h4><strong>&emsp;年齡：</strong></h4>");
+				$("#content").append("&emsp;&emsp;男子為 16-20 歲，紋面理由，表示成年及獵過敵人的頭。女子為 16-20 歲，紋面理由，表示成年及漂亮。");
+				$("#content").append("<h4><strong>&emsp;時間：</strong></h4>");
+				$("#content").append("&emsp;&emsp;秋冬。");
+				$("#content").append("<h4><strong>&emsp;地點：</strong></h4>");
+				$("#content").append("&emsp;&emsp;在家裡或在倉庫下。");
+				$("#content").append("<h4><strong>&emsp;材料：</strong></h4>");
+				$("#content").append("&emsp;&emsp;•  以松樹當薪柴燒，然後把黃銅鍋放在火堆上燒，燒到鍋底有黑灰，再取灰放近竹筒內。");
+				$("#content").append("<br>&emsp;&emsp;•  用竹篦擦血。");
+				$("#content").append("<br>&emsp;&emsp;•  用木頭當鎚子。");
+				$("#content").append("<br>&emsp;&emsp;•  木製紋面用的工具上，釘上 7-10 根併排的金屬針。");
+				$("#content").append("<br>&emsp;&emsp;•  地上鋪茅草蓆，用藤編的籠子當抬子，紋面時一人得扶被紋面者的頭。");
+				$("#content").append("<h4><strong>&emsp;紋面者：</strong></h4>");
+				$("#content").append("&emsp;&emsp;部落內專門負責的人才、有權威的人家。代代相傳者，才有資格替人紋面。若有人沒有經過允許，隨便替人紋面，就得賠償專門負責的人幾倍。紋面者大都是婦女。");
+				$("#content").append("<h4><strong>&emsp;痊癒時間：</strong></h4>");
+				$("#content").append("&emsp;&emsp;約四個月才消腫，初期的十天，要不斷的用羽毛沾清水擦臉，是為了不被紋面的部位發炎及萎縮。被紋面者的周圍都要放嫩葉。");
+				$("#content").append("<h4><strong>&emsp;工資：</strong></h4>");
+				$("#content").append("&emsp;&emsp;男子準備：兩把小米、一件麻線製的衣服、手鐲，讓紋面者任選一種。");
+				$("#content").append("<br>&emsp;&emsp;女子準備：兩件首領穿的衣服、黃銅鍋一個、小豬一隻、 50 毛或 5-6 塊錢，讓紋面者任選一種。");
             });
             $("#button2").click(function(){
-                $("#content").text("這裡放祭典&神話");
-            });
+                $("#headname").text("祭典&神話");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>宗教</strong></h3>");
+				$("#content").append("&emsp;&emsp;太魯閣族的祖靈信仰是以祖靈為中心的集體意識，巫師的醫療與祭司的祈福是這個部落重要的傳統習俗（Gaya），是一個社會組織、宗教信仰，原本的出發點是以疾病的治療為基本觀念，進而延伸至祖靈祭典、公祭、私祭的傳統領域。");
+				$("#content").append("<br>&emsp;&emsp;太魯閣族的人認為，所有的疾病、災難乃是源自於神鬼責罰與觸怒祖靈所形成，因而必須經由對於祖靈的供食慰藉來獲得解決，這是一個傳統的醫療制度，其儀式的進行象徵著與祖靈的溝通。");
+				$("#content").append("<h3><strong>祭典</strong></h3>");
+				$("#content").append("<h4><strong>&emsp;感恩祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;為每年舉行最大祭儀活動，傳統上太魯閣族人播種及收割前，祭司得先去野外樹叢裡四天準備祭神的工作。獻祭時間是在半夜月亮剛出來的時候，進行為期一天的祭神儀式。");
+				$("#content").append("<br>&emsp;&emsp;要出發到祭神的地方前，祭司（Msgasut）在家對男孩說：現在我們要去祭神了，你絕對不可以說話，要安靜。說完了祭司將爐中火熄滅，並且將爐中的火灰及木頭清理乾淨，帶到外面丟掉（意即：除去舊的壞行為，建立新的好行為，以乾淨心，來迎接新的未來）。然後，用新的木材放在爐灶上燒（祭神期間不得熄滅）。接著，點燃男孩手上的火把，一起去叢林祭神，當祭司在築壇祭神時，男孩手持火把，站在旁邊注視著祭司祭神。");
+				$("#content").append("<br>&emsp;&emsp;祭司先將帶來供物小米、玉米、地瓜、芋頭、豆等擺好，祭司就開始念念有詞的祭神，而祭神的祭語（語意）就如下列說明：『編織的神阿！我們感謝祢，因為所有的種子及農作物都是祢的手所造成的，我們播種之後，從發芽到結果，使它接觸陽光、雪、雨水、露水、風。另外所有的生命如：野獸、鳥、昆蟲及海中的魚和河中的魚，及我們人類都在你手中。今年我們所種的農作物：小米、甘薯、芋頭、高梁、玉黍蜀、豆、麥、小黍等都豐收。");
+				$("#content").append("<br>&emsp;&emsp;養的豬、雞及所有獵到的野肉都是祢所賜予的。今年因為祢讓我們擁有豐收的一年，我們向祢獻上感恩，請明年一樣的祝福我們豐收。神阿！感謝祢！");
+				$("#content").append("<br>&emsp;&emsp;祭神完，族人們帶著祭祀過的物品返回部落，而此時部落的族人們都希望拿到祭司手中的那一份供品。部落族人從祭司手中接過摘小米用的小米竹片刀來（象徵性）的來遮取小米並開始唸著（語意）：『神阿！今年由於祢的眷顧，我們生活很順利，並且度過豐收的一年，也讓我們生活飽足，我們將我們種的農作物及飼養的動物獻給祢，現在我們再獻上對祢的感恩，希望祢歡喜接納。");
+				$("#content").append("<h4><strong>&emsp;祖靈祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;在小米收成完畢後，各家族的男士們，一起上山打獵，他們打獵回來後，各個家族拿樹葉將小米糕、獸骨及酒包在裡面，然後拿到屋外掛在家附近樹枝上。之後，再拿一點小米糕拿來祭祖靈說：「祖靈阿！我們將所有的農作物及動物等這些獻祭給祢，希望祢歡喜接納，蘇司！感謝祢」。祖靈祭是個別的家族舉行，是不定期的舉行，例如明天要上山狩獵、工作之前一晚就會殺一隻雞來祭祖靈求保佑或使獵物豐收。");
+				$("#content").append("<h4><strong>&emsp;馘首祭</strong></h4>");
+				$("#content").append("&emsp;&emsp;族人單獨出草是很少有的事，而一組人去是常有的事，稱之為出草獵團。有發起人，並有一位帶隊者，一般來說他是部落的領袖或族長。當出發時必須先去報告長老，得到他的同意之後，才可以準備出發，出發當時，禁止婦女摸苧麻絲，婦女準備要帶去的小米，小米糕及米酒，家裡的火不能熄滅。出草獵團集合到部落郊野作出發前詳細的計畫。出草獵團的隊長以葉子為水杓盛水，用葉子醮散於水在隊員的頭上，祈求隊員的保平安。");
+				$("#content").append("<br>&emsp;&emsp;隊員手持獵刀蹲坐聆聽隊長說話，後皆以手指浸水中，此為水誓禮。出草獵團當晚搭棚夜宿在野外等夢占，如果夢占是好的及連續三次的鳥占，如果鳥占是「凶」的，則要立刻打道回家，不能繼續前進。但如果鳥占是「吉」的，則可繼而往目的地前進，到達目的地之前隊長在每一早上用樹葉在隊員身上搖晃。在敵人部落附近隱密宿營，並留一位年輕人看守東西，這時獵過敵人首級的人穿上短上衣及洗手。並派去窺探敵人的部落，看看是否可容易進攻，如果容易進攻則立刻進攻，或在路邊等候人經過，又有人經過時就用長矛、槍、箭來把他殺死、取頭。");
+				$("#content").append("<br>&emsp;&emsp;獵取敵人首級後，回到部落附近隱密宿營的地方，並即行迅速撤退到敵人追蹤不到之安全地帶，獵首級者取出敵人首級並在溪畔上把腦漿清洗乾淨，在放進首級袋讓年輕背上。出草獵團一路上高聲歡呼，在到部落附近時再次高聲歡呼，朝向部落開槍，聽到槍聲一次則表示獵取敵人的首級一個，兩槍聲表示兩個，以次類推。知道那一家的人獵取敵人的首級，則那家的人就要立刻帶著英雄服去迎接他並給他穿上英雄服。");
+				$("#content").append("<br>&emsp;&emsp;進到部落時，獵取敵人的首級者抓著首級的頭髮在病人身上搖晃，病人就會得到痊癒。之後，帶到自己的家讓他吃肉、小米糕及喝酒，整夜狂歡喝酒跳舞。第二天帶到部落領袖的家裡，一起整夜狂歡喝酒跳舞。第三天則輪流在各個出草獵團的家整夜狂歡喝酒跳舞，他們給他喝酒餵食對嘴一起喝酒歡樂。");
+				$("#content").append("<br>&emsp;&emsp;這些結束之後，部落領袖把首級置於敵首架上，新的放置在中央，舊的移至兩邊，並且給帶上「菖蒲根製成的項鍊」。安置完畢之後，首級架旁豎立凱旋旗，凱旋旗之製造，橫切蓪草莖蕊做成小圓板多數，以麻線綴之，坐瓔璐狀，併其數條作旒一條，繫之於竹竿頂上。部落領袖在級首前蹲坐開始祭敵首說：「經過我們的努力，你能來到我們這裡，今以盛餐招待，你的家人一定很擔心，而你在這裡有盛餐招待，所以請速召你的家人或族人一起同來」。部落人不論老少都忘了疲累的身體，五、六天一起慶祝狂歡跳舞，而獵首者約十天穿著英雄服，過了之後就恢復穿上自己原來服裝。");
+				$("#content").append("<br>&emsp;&emsp;出草獵團中有傷亡或戰死的，其屍體在歸途中棄置於叢林裡一以獸皮蓋上並用樹枝壓住，以防敵人或野獸來破壞，且其所獵的敵首棄置路上，棄置而歸。到了部落也不立刻進去，而是趁夜中一個一個寂然回到部落，各以其衣服器具棄之戶外，裸體潛行到自行家門口時，用小石頭向家屋丟去，叫醒家人開門進去。第二天早上再穿上棄之戶外的衣服，用過的刀不再使用，而另換一把新刀。");
+				$("#content").append("<br>&emsp;&emsp;發起者對死者家屬賠償，如大鍋、槍、刀、斧頭，這些並不是要給喪家而是要丟棄成廢棄物，帶領者亦必須到郊野殺一頭豬，切成一小塊串在藤條上分給部落人以求饒恕原諒。如果帶領者不這樣做的話，喪家會到帶領者家進行攻擊。如果有出草獵團人員受傷，帶領者要負擔所有的醫療費（巫師費）用。另外找出部落中違反誡規者，如果找到了，他就要賠償所有的醫療費用。出草期間家裡爐灶中的火不能熄滅，禁止相互施和受，禁止摸苧麻絲及織布，另外其他未去出草者亦禁止到別人的家，禁止聽玩笑的話，主要是為不破壞出草的目的。到達部落，聽到織布聲時，晚上可以安心的睡覺。");
+			});
             $("#button3").click(function(){
-                $("#content").text("這裡放居住型態");
+                $("#headname").text("居住型態");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>分布</strong></h3>");
+				$("#content").append("&emsp;&emsp;太魯閣族的部落規模小、人口數偏低，一般部落都只有數十人左右，超過兩百人的部落非常少見。太魯閣族聚落的特徵為分散式的部落型態，其型態特徵為一個部落內家屋分佈多處，有單戶也有幾戶同住。每個家戶與其鄰居間的距離最小都在20至30公尺以上，甚至同一個部落，卻分佈在幾個相互分離的住區，彼此相距數公里的路程。太魯閣族的部落呈現不規則的分布狀態，是沒有規劃性整齊排列的聚落，部落內的人大多同屬一血緣者居住。");
+				$("#content").append("<br>&emsp;&emsp;大致分佈北起於花蓮縣和平溪，南迄紅葉及太平溪這一廣大的山麓地帶，即現行行政體制下的花蓮縣秀林鄉、萬榮鄉及少部份的卓溪鄉立山、崙山等地。");
+				$("#content").append("<h3><strong>豎穴居</strong></h3>");
+				$("#content").append("&emsp;&emsp;為家屋，積木式構造，並以斜撐來補強家屋構造。家人過逝時遺體埋葬在床下（表示永遠同在及保護家人），庭外建有一個撐高防鼠的倉庫，各部落較高處建有瞭望台防敵人侵襲。主要建材如下：");
+				$("#content").append("<br>&emsp;&emsp;•  樑及柱：硬木及蛇木為樑及柱。");
+				$("#content").append("<br>&emsp;&emsp;•  牆壁：竹片對壘。");
+				$("#content").append("<br>&emsp;&emsp;•  屋頂：茅草樹皮或桂竹。");
+				
             });
             $("#button4").click(function(){
-                $("#content").text("這裡放社會組織");
-            });
-        });
+                $("#headname").text("社會組織");
+				$("#content").text(" ");
+				$("#content").append("<h3><strong>簡介</strong></h3>");
+				$("#content").append("&emsp;&emsp;太魯閣是男女分工的生活模式，男獵女織，不過在日常生活中還是以兩性互補為原則。雖然是父系社會，女生隨著年紀的增長，在家中的地位也會漸漸提升，有發言權。");
+				$("#content").append("<h3><strong>Gaya</strong></h3>");
+				$("#content").append("&emsp;&emsp;在部落中有一種力量，就如泰雅的gaga一樣，太魯閣叫做gaya。Gaya是家與部落的中心，每一個成員都必須嚴格遵守的，否則一人違規全家或全部落都會遭殃的。");
+				$("#content").append("<br>&emsp;&emsp;這種力量像是一種規訓，如果不遵守就會觸犯禁忌、受到祖先的懲罰，這時必須殺豬來解除。其內容各gaya間會略有不同，但大抵來說都是道德上的訓誡，如不可口出穢言、要參與部落活動等等。");
+				$("#content").append("<h3><strong>父系繼嗣法則</strong></h3>");
+				$("#content").append("&emsp;&emsp;太魯閣族常以男性繼嗣為主，家中的財產也只有男性後裔才可繼承；每個男子結婚後，及可自父親手中分得田地、家屋，另外建新的家庭，直到幼子成家不再分出。在太魯閣的部落中，因住區分立，頭目很難直接掌握這些地區，在這種情況下，該住區中最具權威的人物，就要代表頭目來維持其住區內的秩序，而具有權威的人物無疑地就是個家族中的老人，男性家長正是最有權威性的。");
+				$("#content").append("<h3><strong>共同的生產技術</strong></h3>");
+				$("#content").append("&emsp;&emsp;太魯閣族的傳統農耕技術雖是簡單的游耕式粗放農作，但其農耕活動中，伴隨著許多宗教祭儀，這些祭儀必須以祭團為單位來舉行。");
+				$("#content").append("<br>&emsp;&emsp;狩獵經常是需要團結合作的工作，太魯閣族的狩獵隊伍常是由整個部落的男子所組成，每個部落都有其固定的獵區，保護部落的安全也是其男子團體的責任");
+				
+				});
+			});
     </script>
 </head>
 <body>
     <style>
         body{
             background-color:#ebd8a5;
-            margin-left:18%;
-            margin-right:18%;
             font-family:微軟正黑體;
         }
         h1{
             font-weight:bold;
-            padding-left:20px;
-            padding-top:20px;
-        }
-        hr{
-            padding-bottom:-50px;
-            border-color:#9595b7;
         }
         #topImg{
-            margin:20px;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
         }
-        #share{
-            margin-left:80%;
-            margin-bottom:5%;
+        hr{
+            border-color:#9595b7;
         }
-        #share img{
-            padding-left:10px;
+        #back{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:2%;
+            padding:15px 60px;
+            text-align:center;
+            font-size:16px;
         }
     </style>
-    
-    <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html"><img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100"></a>
-    <h1  id="headname">太魯閣族</h1>
-    <hr align="center" width="100%" alt="分隔線">
-    <div class="row">
-      <div class="col-sm-2">
+        <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/home.html">
+        <img id="topImg" src="topImg.jpg" alt="首頁照片可超連結至回到原點首頁" title="首頁照片_原住民" width="920" height="100">
+        </a>
         <div class="container">
-          <div class="btn-group-vertical">
-            <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
-            <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
-            <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
-            <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
-          </div>
+           <div class="col-sm-1 col-xs-1"></div>
+                <div class="col-sm-11 col-xs-11">
+                    <h1 id="headname">太魯閣族</h1>
+                </div>
         </div>
-      </div>
-      <div class="col-sm-10">
-        <div id="share">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
-          <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
-          </a>
-          <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
-          <img id="line" src="line.png" alt="line分享" width="30" height="30">
-          </a>
-          <img id="twitter" src="twitter.png" alt="twitter分享" width="30" height="30">
-          <img id="wechat" src="wechat.png" alt="wechat分享" width="30" height="30">
+        <hr align="center" width="60%" alt="分隔線">
+        <div class="container">
+            <div class="col-sm-1 col-xs-1"></div>
+            <div class="col-sm-2 col-xs-2">
+                <div class="btn-group-vertical">
+                    <button id ="button1" type="button" alt="習俗" class="btn btn-default btn-lg">習俗</button>
+                    <button id ="button2" type="button" alt="祭典&神話" class="btn btn-default btn-lg">祭典&神話</button>
+                    <button id ="button3" type="button" alt="居住型態" class="btn btn-default btn-lg">居住型態</button>
+                    <button id ="button4" type="button" alt="社會組織" class="btn btn-default btn-lg">社會組織</button>
+                </div>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <p id="content"></p>   
+            </div>
+            <div class="col-sm-1 col-xs-1" id="share">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+                <img id="fb" src="facebook.png" alt="facebook分享" width="30" height="30">
+                </a>
+                <a href="http://line.naver.jp/R/msg/text/?file:///C:/Users/Jiazhen_Hou/Desktop/intro.html">
+                <img id="line" src="line.png" alt="line分享" width="30" height="30">
+                </a>
+            </div>
         </div>
-      </div>
-      <div id="content" class="col-sm-8">
-        <p>這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容</p>
-      </div>
-    </div>
+        <hr align="center" width="60%" alt="分隔線">
+        <a href="file:///C:/Users/Jiazhen_Hou/Desktop/%E5%B0%88%E9%A1%8C/content_home.html">
+            <div class="col-sm-12 col-xs-12">
+            <button id="back" alt="回到內容選單" title="回到內容選單">回到內容首頁</button>
+            </div>
+        </a>
 </body>
 </html>
